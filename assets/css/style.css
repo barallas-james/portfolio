@@ -146,6 +146,17 @@ a:visited{
 
 }
 
+.card-img-top{
+	height:300px; 
+
+}
+
+.contact .btn{
+	margin-bottom: 30px;
+
+
+}
+
 
 
 @media only screen and (max-width: 986px){
