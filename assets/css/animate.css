@@ -3551,7 +3551,7 @@
   }
 }
 
-.slideOutUp {
+.slideOutUp:hover {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
