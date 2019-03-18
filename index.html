@@ -7,349 +7,240 @@
 
 	<meta http-equiv="X UA-Compatible" content="IE-Edge">
 
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
 	<title>James Barallas | My Web Portfolio</title>
 
-	<!-- fav icon -->
-	<link rel="icon" type="image/gif/png" href="assets/images/home-solid.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<!-- font awesome icons -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-	<!-- animate css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 
 </head>
 <body>
 
-	<header id="home" class="banner">
-	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand animated zoomIn" href="#">James Barallas</a>
+	<div class="wrapper">
+		<section class="banner">
+			<div class="navbar-fixed">
+				<nav class="transparent">
+					<div class="nav-wrapper">
+						<div class="container">
+							<a href="#!" class="brand-logo">Barallas</a>
+							<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+							<ul class="right hide-on-med-and-down">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="about-me.html">About Me</a></li>
+								<li><a href="contact-me.html">Contacts</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<ul class="sidenav" id="mobile-demo">
+				<li><a><h3>Menu</h3></a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="about-me.html">About Me</a></li>
+				<li><a href="contact-me.html">Contacts</a></li>
+			</ul>	
 
-	    <span class="navbar-toggler-icon"></span>
 
-	  	</button>
-
-	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      	<li class="nav-item">
-		        	<a class="nav-link animated bounceIn bounceOut" href="#home">Home</a>
-		      	</li>
-
-		      	<li class="nav-item">
-		        	<a class="nav-link animated bounceIn bounceOut" href="#about-me">About Me</a>
-		      	</li>
-
-		      	<li class="nav-item">
-		        	<a class="nav-link animated bounceIn bounceOut" href="#my-portfolio">My Portfolio</a>
-		      	</li>
-
-		      	<li class="nav-item">
-		        	<a class="nav-link animated bounceIn bounceOut" href="#contact">Contacts</a>
-		      	</li>
-		    
-		    </ul>
-		 
-	  	</div>
-	</nav>
-
-	
-		
-		<section class="box">
-				<h1 class="animated slideInUp">Welcome to my Portfolio Website</h1>
+			<section class="box">
+				<h2>Hi, I'm James Barallas</h2>
 
 				<hr>
 
-				<p class="animated slideInUp">Hi, I'm James Barallas and This is all about me and what I do as a Full Stack Web Developer</p>
+				<p>Full-Stack Web Developer</p>
 
-				<button class="btn btn-secondary animated bounceIn bounceOut" ><a href="#my-portfolio">Jump to my Portfolio</a></button>
+			</section>
 
 		</section>
 
-	</header>
+		<section class="content">
+			<!-- <div class="row">
+			    <div class="col s12 m4">
+			      <div class="card deep-purple darken-4">
+			        <div class="card-content white-text">
+			          <span class="card-title"><i class="material-icons">book</i> Portfolio</span>
+			        </div>
+			        <div class="card-action">
+			          <a href="#" class="waves-effect waves-light btn purple darken-1">Click Here</a>
+			        </div>
+			      </div>
+			    </div>
 
+			    <div class="col s12 m4">
+			      <div class="card deep-purple darken-4">
+			        <div class="card-content white-text">
+			          <span class="card-title"><i class="material-icons">person</i> About Me</span>
+			        </div>
+			        <div class="card-action">
+			          <a href="#" class="waves-effect waves-light btn purple darken-1">Click Here</a>
+			        </div>
+			      </div>
+			    </div>
 
-	<main class="container-fluid">
+			    <div class="col s12 m4">
+			      <div class="card deep-purple darken-4">
+			        <div class="card-content white-text">
+			          <span class="card-title"><i class="material-icons">call</i> Contacts</span>
+			        </div>
+			        <div class="card-action">
+			          <a href="#" class="waves-effect waves-light btn purple darken-1">Click Here</a>
+			        </div>
+			      </div>
+			    </div>
+			</div> -->
 
-		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up animated slideOutUp"></i></button>
+			<h1>My Works</h1>
 
-		<div id="about-me" class="about-me">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/images/capstone-1.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Archie<i class="material-icons right">more_vert</i></span>
+							<p><a href="https://barallas-james.github.io/archie/index.html" target="_blank" class="waves-effect waves-light btn purple darken-1">Visit Page</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/images/capstone-2.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Albooms<i class="material-icons right">more_vert</i></span>
+							<p><a href="https://immense-cliffs-68681.herokuapp.com/home" target="_blank" class="waves-effect waves-light btn purple darken-1">Visit Page</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/images/capstone-3.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Mongotel<i class="material-icons right">more_vert</i></span>
+							<p><a href="https://quiet-dawn-88367.herokuapp.com/" target="_blank" class="waves-effect waves-light btn purple darken-1">Visit Page</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
 
 			<h1>About Me</h1>
 
-
-			
 			<div class="row">
-				<div class="col col-lg-5 offset-lg-1 col-md-6 col-12">
-
-					<div class="images">
-				    	<img src="assets/images/me.jpg">
-				    </div>
-
+				<div class="col s12 m6">
+					<img src="assets/images/me.jpg">
 				</div>
 
-				<div class="col col-lg-5 col-md-6 col-12">
-				   	
-					<h2><u>JAMES TABAMO BARALLAS</u></h2>
+				<div class="col s12 m6">
+					<h3>JAMES BARALLAS</h3>
+
+					<br>
 
 					<p>He is fueled by his passion for understanding Web Development. He considers himself a ‘forever student’, eager to build on his academic foundations in programming and stays in tune with the latest technological trends through continued studying.</p>
-
-
-
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col col-lg-5 offset-lg-1 col-md-6 col-12">
-
-					<h2><u>Education</u></h2>
-
-					<ul>
-						<li>
-							<h4>Mapua University</h4>
-							<h6>2014 - 2018 | Bachelor of Science in Information Systems</h6>
-						</li>
-						<li>
-							<h4>Mapua University</h4>
-							<h6>2013 - 2014 | Bachelor of Science in Accountancy</h6>
-						</li>
-						<li>	
-							<h4>St. Paul College of Makati</h4>
-							<h6>2009 - 2013 | Highschool</h6>
-						</li>
-					</ul>
-
-				</div>
-
-				<div class="col col-lg-5 col-md-6 col-12">
-				   	<h2><u>Technical Skills</u></h2>
-
-				   	<ul>
-						<li>
-							<h4>HTML</h4>
-							
-						</li>
-						<li>
-							<h4>CSS</h4>
-							
-						</li>
-						<li>	
-							<h4>Bootstrap</h4>
-						
-						</li>
-						<li>	
-							<h4>PHP</h4>
-						
-						</li>
-					</ul>
-
+				<div class="col m12">
+					<a class="waves-effect waves-light btn-large purple darken-1" href="James Barallas Resume.docx" download>Click here to download resume</a>
 				</div>
 			</div>
 
+			<hr>
 
-			<div class="row">
-				<div class="col col-12">
-					<hr>
-				</div>
-			</div>
-
-			
-		
-			
-
-		</div>
-
-		<div id="my-portfolio" class="my-portfolio">
-			<h1>My Portfolio</h1>
-
-			<div class="row">
-				
-				<div class="col col-lg-5 offset-lg-1 col-md-6 col-12">
-
-					<div class="card" >
-						<img class="card-img-top" src="assets/images/capstone-1.jpg" alt="Card image cap">
-
-					  	<div class="card-body">
-
-						    <h5 class="card-title">Archie</h5>
-						    <p class="card-text">Archie is an information website about the different types of architecture.</p>
-						    <a href="https://barallas-james.github.io/archie/index.html" target="_blank" class="btn btn-primary animated bounceIn bounceOut">Go to Archie</a>
-					  	</div>
-					</div>
-
-				</div>
-
-				<div class="col col-lg-5 col-md-6 col-12">
-					<div class="card" >
-						<img class="card-img-top" src="assets/images/capstone-2.jpg" alt="Card image cap">
-
-					  	<div class="card-body">
-
-						    <h5 class="card-title">Albooms</h5>
-						    <p class="card-text">A web based album borrowing system that keeps all the necessary data to know who borrows and returns borrowed Albums.</p>
-						    <a href="https://immense-cliffs-68681.herokuapp.com/home" target="_blank" class="btn btn-primary animated bounceIn bounceOut">Go to Albooms</a>
-					  	</div>
-					</div>
-				</div>
-
-
-
-				
-			</div>
-
-			<div class="row">
-				
-				<div class="col col-lg-5 offset-lg-1 col-md-6 col-12">
-					<div class="card" >
-						<img class="card-img-top" src="assets/images/capstone-3.png" alt="Card image cap">
-
-					  	<div class="card-body">
-
-						    <h5 class="card-title">Mongotel</h5>
-						    <p class="card-text">A web based hotel booking system that also records booking history</p>
-						    <a href="https://quiet-dawn-88367.herokuapp.com" target="_blank" class="btn btn-primary animated bounceIn bounceOut">Go to Mongotel</a>
-					  	</div>
-					</div>
-				</div>
-
-				<div class="col col-lg-5 col-md-6 col-12">
-
-					
-
-				</div>
-
-			</div>
-
-
-
-
-
-			<div class="row">
-				<div class="col col-12">
-					<hr>
-				</div>
-			</div>
-
-
-
-
-
-
-		</div>
-
-		<div id="contact" class="contact">
 			<h1>Contacts</h1>
 
 			<div class="row">
-
-				<div class="col col-lg-4 offset-lg-1 col-md-6 col-12">
-					
-					<form>
-
-						<h3>Contact me:</h3>
-
-						<div class="input-group mb-3">
-						  	<div class="input-group-prepend">
-						    	<span class="input-group-text" id="basic-addon1">Full Name: </span>
-						  	</div>
-
-						  	<input type="text" class="form-control" placeholder="Full Name" aria-label="full-name" aria-describedby="basic-addon1">
-						</div>
-
-						<div class="input-group mb-3">
-						  	<div class="input-group-prepend">
-						    	<span class="input-group-text" id="basic-addon1">E-mail: </span>
-						  	</div>
-						  	
-						  	<input type="email" class="form-control" placeholder="E-mail" aria-label="e-mail" aria-describedby="basic-addon1">
-						</div>
-
-						<div class="input-group mb-3">
-						  	<div class="input-group-prepend">
-						    	<span class="input-group-text" id="basic-addon1">Subject: </span>
-						  	</div>
-
-						  	<input type="text" class="form-control" placeholder="subject" aria-label="subject" aria-describedby="basic-addon1">
-						</div>
-
-						<div class="input-group mb-3">
-						  	<div class="input-group-prepend">
-						    	<span class="input-group-text" id="basic-addon1">Message: </span>
-						  	</div>
-
-						  	<textarea name="message" class="form-control" aria-label="With textarea"></textarea>
-
-						</div>
-
-						<button class="btn btn-primary animated bounceIn bounceOut" type="submit">Submit form</button>
-
-					</form>
-
-					
+				<div class="col m12">
+					<h5>Telephone: (02) 946 34 22</h5>
+					<h5>Mobile: +63 916 294 9284</h5>
+					<h5>E-mail: barallas.james@gmail.com</h5>
 				</div>
-			
-
-
-			
-				<div class="col col-lg-6 col-md-6 col-12">
-					<h3>My Contact Details:</h3>
-
-					<p><strong>City Address:</strong> Blk. 5 Lot 1, Camella Grenville Residences, Tuktukan, Taguig City</p>
-					<p><strong>Tel.:</strong> (02) 946 34 22 </p>
-					<p><strong>Mobile:</strong> +63 916 294 9284</p>
-					<p><strong>E-mail:</strong> barallas.james@gmail.com</p>
-				</div>
-			
 			</div>
-			
-				
-			
+
+		</section>
+	</div>
+
+	<footer class="page-footer black">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h4 class="white-text">This site is created using:</h4>
+					<ul class="grey-text text-lighten-4">
+						<li>Materialize</li>
+						<li>JQuery</li>
+						<li>Font Awesome</li>
+					</ul>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<div class="social">
+						<h4 class="white-text">Social Links</h4>
+
+						<a href="https://www.facebook.com/james.barallas" target="_blank">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a href="https://www.instagram.com/augustjamesss/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="https://github.com/barallas-james" target="_blank">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://gitlab.com/barallas.james" target="_blank">
+							<i class="fab fa-gitlab"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
 
 		</div>
-		
-
-
-	</main>
-
-
-	<footer class="footer">
-
-		<p>Copyright © 2018 James Barallas</p>
-
-		<div class="icons">
-			<a href=""><i class="fab fa-facebook-square" alt="Facebook"></i></a>
-			<a href=""><i class="fab fa-twitter" alt="Twitter"></i></a>
-			<a href=""><i class="fab fa-instagram" alt="Instagram"></i></a>		
-		</div>	
-
-
-
-
 	</footer>
 
+	
+	
 
 
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
 
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
-
-
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="assets/js/script.js"></script>
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>
